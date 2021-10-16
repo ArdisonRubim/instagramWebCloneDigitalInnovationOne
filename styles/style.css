@@ -33,9 +33,23 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 35rem;
 }
 
+.instagram-phone-inter {
+    position: relative;
+    left: -17.35rem;
+    height: 25rem;
+    width: 13.99rem;
+    padding-top: 0.4rem;
+}
+
+.instagram-phone-inter img{
+    position: relative;
+    width: 14.05rem;
+    height: 24.7rem;
+    left: -1.2px;
+}
 .instagram-continue {
     display: flex;
     align-items: center; /* horizontal */
@@ -113,7 +127,8 @@ body {
     padding: 1rem;
 }
 
-.app-download {
+.app-download img{
+    position: relative;
     height: 3rem;
     width: 10rem;
     background-size: cover;
